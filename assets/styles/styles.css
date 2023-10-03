@@ -1,0 +1,75 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente en la pantalla */
+    align-items: center; /* Centrar verticalmente en la pantalla */
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Eliminar el margen predeterminado del cuerpo */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px; /* Agregar margen superior a los campos de entrada */
+    margin-bottom: 10px; /* Agregar margen inferior a los campos de entrada */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Agregar margen superior al botón */
+}
+
+button:hover {
+    background-color: #006ee4;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "chabelly/auth.php",
+    "autoload": {
+        "psr-4": {
+            "Chabelly\\AuthPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bq0198",
+            "email": "chabelly.lbetancourt@alumnos.upm.es"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
